@@ -1,0 +1,57 @@
+l=[str(j) for j in input().strip()]
+for i in range(0,len(l)):
+    if l[i]=="A" or l[i]=="a":
+        l[i]=".-"
+    if l[i]=="B" or l[i]=="b":
+        l[i]="-..."
+    if l[i]=="C" or l[i]=="c":
+        l[i]="-.-."
+    if l[i]=="D" or l[i]=="d":
+        l[i]="-.."
+    if l[i]=="E" or l[i]=="e":
+        l[i]="."
+    if l[i]=="F" or l[i]=="f":
+        l[i]="..-."
+    if l[i]=="G" or l[i]=="g":
+        l[i]="--."
+    if l[i]=="H" or l[i]=="h":
+        l[i]="...."
+    if l[i]=="I" or l[i]=="i":
+        l[i]=".."
+    if l[i]=="J" or l[i]=="j":
+        l[i]=".---"
+    if l[i]=="K" or l[i]=="k":
+        l[i]="-.-"
+    if l[i]=="L" or l[i]=="l":
+        l[i]=".-.."
+    if l[i]=="M" or l[i]=="m":
+        l[i]="--"
+    if l[i]=="N" or l[i]=="n":
+        l[i]="-."
+    if l[i]=="O" or l[i]=="o":
+        l[i]="---"
+    if l[i]=="P" or l[i]=="p":
+        l[i]=".--."
+    if l[i]=="Q" or l[i]=="q":
+        l[i]="--.-"
+    if l[i]=="R" or l[i]=="r":
+        l[i]=".-."
+    if l[i]=="S" or l[i]=="s":
+        l[i]="..."
+    if l[i]=="T" or l[i]=="t":
+        l[i]="-"
+    if l[i]=="U" or l[i]=="u":
+        l[i]="..-"
+    if l[i]=="V" or l[i]=="v":
+        l[i]="...-"
+    if l[i]=="W" or l[i]=="w":
+        l[i]=".--"
+    if l[i]=="X" or l[i]=="x":
+        l[i]="-..-"
+    if l[i]=="Y" or l[i]=="y":
+        l[i]="-.--"
+    if l[i]=="Z" or l[i]=="z":
+        l[i]="--.."
+#print(l) no need to execute
+for i in range(0,len(l)):
+    print(l[i],end=" ")
